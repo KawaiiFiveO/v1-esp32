@@ -87,7 +87,7 @@ extern bool isPortraitMode;
 // for GPS connectivity
 #define BAUD_RATE 9600
 
-#define WIFI_MODE WIFI_STA
+#define WIFI_MODE WIFI_AP
 
 // Custom UI color; should be modified to an acceptable TFT_COLOR
 // See https://github.com/Bodmer/TFT_eSPI/blob/master/TFT_eSPI.h for default enumerations
