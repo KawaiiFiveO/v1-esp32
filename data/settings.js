@@ -150,7 +150,7 @@ document.getElementById("settingsForm").addEventListener("submit", function(even
             })
             .catch(error => {
                 console.error('Error:', error);
-                alert("Error saving settings");
+                alert("Error saving settings: " + error);
             });
         } else {
             alert("No changes detected.");
